@@ -23,12 +23,12 @@ optional arguments:
 ### Examples
 To generate a playlist of 50 random tracks from all genres with the (default) title *Random playlist* use:
 
-```mopidy-playlist-db.py```
+```python mopidy-playlist-db.py```
 
 To generate a playlist of 100 random tracks from the genres *Alternative* and *Indie* with the title *Alternative random playlist* use:
 
 
-```mopidy-playlist-db.py -l 100 -t 'Alternative random playlist' -g 'Alternative, Indie'```
+```python mopidy-playlist-db.py -l 100 -t 'Alternative random playlist' -g 'Alternative, Indie'```
 
 I call the script (from another python script) everytime before power-down, to generate a couple of fresh playlists, like this:
 ```python
