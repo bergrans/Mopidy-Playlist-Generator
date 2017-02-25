@@ -5,7 +5,7 @@ This python script will create a random playlist of a given length (or default 5
 Also prevert genres can be defined.
 
 Playlists are placed in the __playlists_dir__ directory defined in your settings.ini file.
-## Uasge
+## Usage
 
 ```
 usage: mopidy-playlist-db.py [-h] [-l PLAYLISTLENGTH] [-g GENRE] [-t TITLE]
