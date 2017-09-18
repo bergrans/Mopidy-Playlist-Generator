@@ -2,7 +2,7 @@
 ## Python script to generate random playlists for Mopidy/Pi MusicBox
 
 This python script will create a random playlist of a given length (or default 50, max 1000) of all tracks in the SQLite database.
-Also prevert genres can be defined.
+Also preferred genres can be defined.
 
 Playlists are placed in the __playlists_dir__ directory defined in your settings.ini file.
 ## Usage
